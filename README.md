@@ -1,6 +1,6 @@
 # Face-Detection
 
-Face detection simple demo based on haar-cascade samples in OpenCV
+Face detection simple demo based on haar-cascade samples in OpenCV.
 
 ### Setup
 | Name |  Version |
@@ -12,7 +12,7 @@ Run with `python face_detection.py image_path/name.png` to provide file name as 
 
 e.g. `python face_detection.py friends.png`
 
-Or just run `python face_detection.py`
+Or just run `python face_detection.py` and add file name later.
 
 ### Modify
 
