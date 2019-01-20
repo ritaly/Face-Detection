@@ -17,7 +17,10 @@ def detect_face(faces, img, gray):
         cv2.rectangle(roi_color, (ex, ey), (ex+ew,ey+eh), (0,255,0), 2)
 
 def main():
-  image_path = sys.argv[1]
+  if len(sys.argv) > 1:
+      image_path = sys.argv[1]
+  else:
+      image_path = input("Provide image name or path to image: ")
 
   # Read the image
   img = cv2.imread(image_path)
