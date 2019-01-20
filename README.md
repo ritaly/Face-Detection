@@ -1,6 +1,6 @@
 # Face-Detection
 
-Face detection simple demo
+Face detection simple demo based on haar-cascade samples in OpenCV
 
 ### Setup
 * Python 3
@@ -9,6 +9,33 @@ Face detection simple demo
 Run with `python face_detection.py image_name.png`
 
 e.g. `python face_detection.py friends.png`
+
+### Modify
+
+This can be used with any other [haar-cascades](https://github.com/opencv/opencv/tree/master/data/haarcascades).
+
+Whole body detection by simply changing to `haarcascade_fullbody.xml`
+
+* Change `face_cascade` to `body_cascade`
+
+* Switch face detection to whole body detection with:
+```
+bodies = body_cascade.detectMultiScale(
+    gray,
+    # your settings
+    scaleFactor=1.5,
+    minNeighbors=5,
+    minSize=(30, 30),
+)
+```
+
+and
+
+```
+for (x, y, w, h) in bodies:
+    cv2.rectangle(img, (x, y), (x+w, y+h), (0, 255, 0), 2)
+```
+
 
 ### Contact
 Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
