@@ -40,6 +40,17 @@ for (x, y, w, h) in bodies:
     cv2.rectangle(img, (x, y), (x+w, y+h), (0, 255, 0), 2)
 ```
 
+### TO DO features list
+
+Here sample ideas for future development.
+
+Create fork of this repo.
+Add features:
+
+1. Check if a file (or path to file) exists. Ask user again to provide correct file
+2. Detect both faces and whole bodies. Return count of detected objects
+3. Automate the attachment of images. Allow user to specify the path to the folder
+4. ...your ideas...
 
 ### Contact
 Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
