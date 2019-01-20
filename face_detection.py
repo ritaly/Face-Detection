@@ -33,7 +33,7 @@ def main():
     minNeighbors=3,
     minSize=(30, 30)
   )
-  print("Found {0} faces!".format(len(faces)))
+  print("Found {} faces!".format(len(faces)))
   
   detect_face(faces, img, gray)
 

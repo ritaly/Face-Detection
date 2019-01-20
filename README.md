@@ -12,7 +12,7 @@ Run with `python face_detection.py image_path/name.png` to provide file name as 
 
 e.g. `python face_detection.py friends.png`
 
-Or run `python face_detection.py`
+Or just run `python face_detection.py`
 
 ### Modify
 
@@ -43,4 +43,5 @@ for (x, y, w, h) in bodies:
 
 ### Contact
 Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
+
 Inspiration [Face recognition with Python](https://realpython.com/blog/python/face-recognition-with-python/)
