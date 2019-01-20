@@ -53,6 +53,6 @@ Add features:
 4. ...your ideas...
 
 ### Contact
-Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
+Created by ritaly, you can find me on my blog [www.flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
 
 Inspiration [Face recognition with Python](https://realpython.com/blog/python/face-recognition-with-python/)
