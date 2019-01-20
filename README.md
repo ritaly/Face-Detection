@@ -3,8 +3,10 @@
 Face detection simple demo based on haar-cascade samples in OpenCV
 
 ### Setup
-* Python | 3.7 (3.x)
-* OpenCV | 4.0
+| Name |  Version |
+| :--: | :---: |
+| Python | 3.7 (3.x) |
+| OpenCV | 4.0 |
 
 Run with `python face_detection.py image_name.png`
 
