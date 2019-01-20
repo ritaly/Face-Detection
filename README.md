@@ -29,7 +29,7 @@ bodies = body_cascade.detectMultiScale(
     # your settings
     scaleFactor=1.5,
     minNeighbors=5,
-    minSize=(30, 30),
+    minSize=(30, 30)
 )
 ```
 
