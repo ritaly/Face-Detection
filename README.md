@@ -1,6 +1,6 @@
-# Face-Detection
+# Face Detection
 
-Face detection simple demo based on haar-cascade samples in OpenCV.
+Face & eye detection: simple demo based on haar-cascade samples in OpenCV.
 
 ### Setup
 | Name |  Version |
